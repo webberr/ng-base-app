@@ -1,9 +1,5 @@
-# Base Angular Application
+# angular-7-registration-login-example
 
-I Wanted to start with a base project that included Angular 7 and the newest components. I am following the tutorial linked below.
+Angular 7 User Registration and Login Example with Angular CLI
 
-
-
-Angular 7 - Role Based Authorization Example with Webpack 4
-
-To see a demo and further details go to http://jasonwatmore.com/post/2018/11/22/angular-7-role-based-authorization-tutorial-with-example
+Full tutorial with example available at http://jasonwatmore.com/post/2018/10/29/angular-7-user-registration-and-login-example-tutorial

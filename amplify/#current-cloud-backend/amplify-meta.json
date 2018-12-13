@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "ngbaseapp-20181211165623-authRole",
+			"UnauthRoleArn": "arn:aws:iam::340692285796:role/ngbaseapp-20181211165623-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::340692285796:role/ngbaseapp-20181211165623-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "ngbaseapp-20181211165623-deployment",
+			"UnauthRoleName": "ngbaseapp-20181211165623-unauthRole",
+			"StackName": "ngbaseapp-20181211165623",
+			"StackId": "arn:aws:cloudformation:us-west-2:340692285796:stack/ngbaseapp-20181211165623/bf05edd0-fda8-11e8-8f49-0af8c7390b1e"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ngbaseapp-20181211165623-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-12-12T15:04:16.663Z",
+			"output": {
+				"S3BucketSecureURL": "https://ngbaseapp-20181212070157-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://ngbaseapp-20181212070157-hostingbucket.s3-website-us-west-2.amazonaws.com",
+				"Region": "us-west-2",
+				"HostingBucketName": "ngbaseapp-20181212070157-hostingbucket"
+			},
+			"lastPushDirHash": "HKMFKzl6y4TjhADhnO4DwYflxRE="
+		}
+	}
+}
