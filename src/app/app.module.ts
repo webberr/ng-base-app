@@ -16,12 +16,15 @@ import { AdminComponent } from './admin';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 
+import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
+
 @NgModule({
     imports: [
         BrowserModule,
         ReactiveFormsModule,
         HttpClientModule,
-        routing
+        routing,
+        AmplifyAngularModule
     ],
     declarations: [
         AppComponent,
@@ -34,7 +37,7 @@ import { RegisterComponent } from './register';
     providers: [
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
         { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
-
+        AmplifyService,
         // provider used to create fake backend
         fakeBackendProvider
     ],

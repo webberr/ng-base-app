@@ -2,9 +2,10 @@
 
 const awsmobile =  {
     "aws_project_region": "us-west-2",
-    "aws_content_delivery_bucket": "ngbaseapp-20181212070157-hostingbucket",
-    "aws_content_delivery_bucket_region": "us-west-2",
-    "aws_content_delivery_url": "http://ngbaseapp-20181212070157-hostingbucket.s3-website-us-west-2.amazonaws.com"
+    "aws_cognito_identity_pool_id": "us-west-2:5a2ce174-b1da-46be-b5ef-d8e4bee83935",
+    "aws_cognito_region": "us-west-2",
+    "aws_user_pools_id": "us-west-2_3o3HPdFNJ",
+    "aws_user_pools_web_client_id": "6hnqfubc8vdftmbdcuvjsvpog3"
 };
 
 

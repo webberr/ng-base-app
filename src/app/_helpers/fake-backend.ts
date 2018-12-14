@@ -17,6 +17,7 @@ export class FakeBackendInterceptor implements HttpInterceptor {
         const isLoggedIn = authHeader && authHeader.startsWith('Bearer fake-jwt-token');
         const roleString = isLoggedIn && authHeader.split('.')[1];
         const role = roleString ? Role[roleString] : null;
+        console.log(roleString);
 
         // wrap in delayed observable to simulate server api call
         return of(null).pipe(mergeMap(() => {
