@@ -1,14 +1,14 @@
 {
     "providers": {
         "awscloudformation": {
-            "AuthRoleName": "ngbaseapp-20181211165623-authRole",
-            "UnauthRoleArn": "arn:aws:iam::340692285796:role/ngbaseapp-20181211165623-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::340692285796:role/ngbaseapp-20181211165623-authRole",
+            "AuthRoleName": "ngbaseapp-20181214131000-authRole",
+            "UnauthRoleArn": "arn:aws:iam::340692285796:role/ngbaseapp-20181214131000-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::340692285796:role/ngbaseapp-20181214131000-authRole",
             "Region": "us-west-2",
-            "DeploymentBucketName": "ngbaseapp-20181211165623-deployment",
-            "UnauthRoleName": "ngbaseapp-20181211165623-unauthRole",
-            "StackName": "ngbaseapp-20181211165623",
-            "StackId": "arn:aws:cloudformation:us-west-2:340692285796:stack/ngbaseapp-20181211165623/bf05edd0-fda8-11e8-8f49-0af8c7390b1e"
+            "DeploymentBucketName": "ngbaseapp-20181214131000-deployment",
+            "UnauthRoleName": "ngbaseapp-20181214131000-unauthRole",
+            "StackName": "ngbaseapp-20181214131000",
+            "StackId": "arn:aws:cloudformation:us-west-2:340692285796:stack/ngbaseapp-20181214131000/9d295c40-ffe4-11e8-a01c-50a686be7356"
         }
     }
 }

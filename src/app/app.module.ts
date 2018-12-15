@@ -4,7 +4,7 @@ import { ReactiveFormsModule }    from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 // used to create fake backend
-import { fakeBackendProvider } from './_helpers';
+// import { fakeBackendProvider } from './_helpers';
 
 import { AppComponent }  from './app.component';
 import { routing }        from './app.routing';
@@ -39,7 +39,7 @@ import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
         { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
         AmplifyService,
         // provider used to create fake backend
-        fakeBackendProvider
+        // fakeBackendProvider
     ],
     bootstrap: [AppComponent]
 })

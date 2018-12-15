@@ -1,4 +1,4 @@
-# angular-7-registration-login-example
+# ng-base-app
 
 Angular 7 User Registration and Login Example with Angular CLI
 
